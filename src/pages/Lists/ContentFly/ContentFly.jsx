@@ -51,14 +51,40 @@ export const ContentFly = () => {
                             </select>
                         </div>
                     </div>
-
-
                 </div>
 
                 {/* item */}
-                <div className="bg-slate-600">
-                    <div>item</div>
+                <div className="">
+                    <div className="flex justify-center">
+                        <div className="block p-6 rounded-lg shadow-lg bg-white w-full">
+                            <p className="md:space-x-1 space-y-1 md:space-y-0 mb-4">
+                                <a className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Flight detail
+                                </a>
+
+                                <a className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Flight detail
+                                </a>
+
+                            </p>
+
+                            <div className="collapse" id="collapseExample">
+                                <div className="block  bg-white">
+                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                </div>
+                            </div>
+
+                            <div className="collapse" id="collapseExample2">
+                                <div className="block  bg-white">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia velit laboriosam aliquid nihil obcaecati deleniti corrupti temporibus aliquam eligendi accusamus totam doloremque placeat veniam repellendus quidem blanditiis, nesciunt ullam aspernatur?
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
 
             {/* dat ve */}
