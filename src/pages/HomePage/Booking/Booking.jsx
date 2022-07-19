@@ -103,7 +103,7 @@ export const Booking = () => {
                 </div>
             </div>
             <div>
-                <Link to='/list' className="w-56 h-14 z-[9999] absolute right-5 -bottom-5">
+                <Link to='/lists' className="w-56 h-14 z-[9999] absolute right-5 -bottom-5">
                     <button className=" bg-indigo-700 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 z-50 focus:ring-opacity-75 w-56 h-14  ">
                         <div className="flex items-center justify-around">
                             <p className="text-lg font-semibold ">Search Flights </p> <div className="bg-vector-icon w-[22px] h-[12px] ml-3"></div>

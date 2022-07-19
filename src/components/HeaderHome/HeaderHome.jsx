@@ -2,7 +2,7 @@ import React from 'react'
 
 export const HeaderHome = () => {
     return (
-        <><section className="flex justify-between items-center">
+        <><section className="flex justify-between items-center py-5 px-44">
             <div className="flex">
                 <a className="text-xl pr-3 font-bold ">Baycungban</a>
                 <div className="bg-vietnam-icon w-5 h-5 mr-2 items-stretch mt-1"></div>

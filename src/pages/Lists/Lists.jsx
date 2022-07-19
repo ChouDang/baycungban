@@ -1,7 +1,12 @@
 import React from 'react'
+import { BookingFly } from './BookingFly/BookingFly'
+import { ContentFly } from './ContentFly/ContentFly'
 
 export const Lists = (props) => {
     return (
-        <div>Lists</div>
+        <section>
+            <BookingFly />
+            <ContentFly />
+        </section>
     )
 }

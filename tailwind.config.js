@@ -13,6 +13,11 @@ module.exports = {
         "instagram-icon": "url('/src/assets/img/home/instagram-icon.png')",
         "vector-icon": "url('/src/assets/img/home/Vector-icon.png')",
         "calendar-icon": "url('/src/assets/img/home/calendar-icon.png')",
+        "arrow-icon": "url('/src/assets/img/home/Frame-arrowicon.png')",
+        "s-icon": "url('/src/assets/img/list/search-icon.png')",
+        "bamboo-icon": "url('/src/assets/img/list/bammo-icon-logo.png')",
+        "dad-icon": "url('/src/assets/img/list/dad.png')",
+
       })
     },
   },
