@@ -10,7 +10,6 @@ export default function HomeTemplate(props) { //props: {component: , path: '', m
         <Route exact path={props.path} render={(propsRoute) => {
             return <>
                 <section className="h-screen">
-
                     <div className="h-5/6 pt-12 px-44 bg-hero-pattern ">
                         <HeaderHome {...propsRoute} />
                         <props.component {...propsRoute} />

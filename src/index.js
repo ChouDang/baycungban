@@ -5,6 +5,8 @@ import App from './App';
 
 import './assets/font/Fontspring-DEMO-biennale-book.otf'
 
+import 'tw-elements';
+
 
 // setup redux
 import { Provider } from 'react-redux'
