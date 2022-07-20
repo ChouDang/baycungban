@@ -1,11 +1,12 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import reduxThunk from 'redux-thunk';
+import {
+    flyReducer
+} from "../redux/reducers/flyReducer";
 
 const rootReducer = combineReducers({
-
+    flyReducer
 });
-
-
 
 
 let middleWare = applyMiddleware(reduxThunk);

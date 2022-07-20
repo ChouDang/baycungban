@@ -2,7 +2,7 @@ import axios from 'axios'
 //Cấu hình các hằng số của hệ thống 
 
 //domain backend
-export const DOMAIN = 'https://mocki.io/v1/ff3207e0-f250-4a1d-9240-b3dbffa8386a';
+export const DOMAIN = 'https://mocki.io/v1/';
 
 
 

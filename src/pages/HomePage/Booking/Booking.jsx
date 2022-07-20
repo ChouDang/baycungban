@@ -12,8 +12,8 @@ export const Booking = () => {
                             <p className="text-sm font-semibold">One way / Round-trip</p>
                         </div>
                         <div className="flex items-center px-5 ">
-                            <input class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-left cursor-pointer mr-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                            <p className="text-sm font-semibold items-center flex">Multi-city</p>
+                            <input class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-left cursor-pointer mr-2" type="radio" name="flexRadioDefault" checked id="flexRadioDefault1" />
+                            <p className="text-sm font-semibold items-center flex" >Multi-city</p>
                         </div>
                         <div className="px-5 ">
                             <p className="text-sm font-semibold  items-center flex">02 Adult, 01 children <svg
@@ -103,7 +103,7 @@ export const Booking = () => {
                 </div>
             </div>
             <div>
-                <Link to='/lists' className="w-56 h-14 z-[9999] absolute right-5 -bottom-5">
+                <Link to='/lists' className="w-56 h-14 z-[9999] absolute right-5 -bottom-7">
                     <button className=" bg-indigo-700 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 z-50 focus:ring-opacity-75 w-56 h-14  ">
                         <div className="flex items-center justify-around">
                             <p className="text-lg font-semibold ">Search Flights </p> <div className="bg-vector-icon w-[22px] h-[12px] ml-3"></div>

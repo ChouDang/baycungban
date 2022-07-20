@@ -10,6 +10,7 @@ import ListsTemplate from './Templates/ListsTemplate';
 
 
 
+
 export const history = createBrowserHistory();
 
 function App() {
@@ -18,7 +19,6 @@ function App() {
       <Switch>
         <HomeTemplate exact path="/" component={HomePage} />
         <ListsTemplate exact path='/lists' component={Lists} />
-
       </Switch>
     </Router>
   );
