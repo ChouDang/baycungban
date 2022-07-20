@@ -17,7 +17,8 @@ module.exports = {
         "s-icon": "url('/src/assets/img/list/search-icon.png')",
         "bamboo-icon": "url('/src/assets/img/list/bammo-icon-logo.png')",
         "dad-icon": "url('/src/assets/img/list/dad.png')",
-
+        "bag-icon": "url('/src/assets/img/list/bag-icon.png')",
+        "cutlery-icon": "url('/src/assets/img/list/cutlery-icon.png')",
       })
     },
   },
