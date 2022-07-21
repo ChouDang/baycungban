@@ -17,6 +17,36 @@ export const ContentFly = () => {
         (state) => state.flyReducer.flyData
     );
 
+    const filterDataDay = () => {
+        let array_time = str.split(" ");
+        let time = array_time[3];
+        let day = array_time[2];
+        const
+    }
+
+    const filterTimeFly = Array(10000).fill().map((val, index) => {
+        return {
+            id: index,
+            text: loremIpsum({
+                count: 1,
+                units: 'sentences',
+                sentenceLowerBound: 4,
+                sentenceUpperBound: 8
+            })
+        }
+    })
+
+    const filterBag = Array(10000).fill().map((val, index) => {
+        return {
+            id: index,
+            text: loremIpsum({
+                count: 1,
+                units: 'sentences',
+                sentenceLowerBound: 4,
+                sentenceUpperBound: 8
+            })
+        }
+    })
 
 
     return (
